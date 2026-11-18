@@ -1,0 +1,36 @@
+{
+  "model": "XGBoost",
+  "best_params": {
+    "subsample": 1.0,
+    "reg_lambda": 1,
+    "n_estimators": 500,
+    "min_child_weight": 1,
+    "max_depth": 4,
+    "learning_rate": 0.1,
+    "colsample_bytree": 0.8
+  },
+  "test_scores": {
+    "MAE (lakh)": 0.7319,
+    "RMSE (lakh)": 1.4533,
+    "MedAE (lakh)": 0.4177,
+    "MAPE %": 15.6031,
+    "R2": 0.9241
+  },
+  "features": [
+    "car_age",
+    "km_driven",
+    "km_per_year",
+    "engine_cc",
+    "max_power_bhp",
+    "power_per_litre",
+    "mileage_kmpl",
+    "torque_nm",
+    "seats",
+    "owner_rank",
+    "brand",
+    "model",
+    "fuel",
+    "transmission",
+    "seller_type"
+  ]
+}

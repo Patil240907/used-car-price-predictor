@@ -1,0 +1,6 @@
+model,stage,MAE (lakh),RMSE (lakh),MedAE (lakh),MAPE %,R2 (CV),R2 (train),Overfit gap (R2)
+XGBoost,1. Untuned,0.724,1.628,0.416,15.597,0.892,0.977,0.085
+XGBoost,2. RandomizedSearchCV,0.719,1.595,0.419,15.586,0.897,0.974,0.077
+Random Forest,1. Untuned,0.76,1.618,0.444,16.734,0.893,0.978,0.085
+Random Forest,2. RandomizedSearchCV,0.755,1.676,0.431,16.305,0.886,0.973,0.087
+XGBoost,3. GridSearchCV,0.719,1.595,0.419,15.586,0.897,0.974,0.077
